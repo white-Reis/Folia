@@ -1,0 +1,101 @@
+.header-desktop {
+  width: auto;
+  display: flex;
+  justify-content: space-between;
+  margin: 2rem;
+  align-items: center;
+}
+.header-desktop img {
+  width: auto;
+  height: 2.5rem;
+}
+.header-desktop .nav-desktop a {
+  color: grey;
+  font-size: 1.2em;
+  text-decoration: none;
+  margin: 0 0 0 4rem;
+}
+.header-desktop .nav-desktop a:hover {
+  color: #3886d1;
+}
+.header-desktop .contact-us-botton {
+  font-size: 1.2em;
+  width: auto;
+  height: auto;
+  text-decoration: none;
+  font-weight: 300;
+  color: #ffffff;
+  background-color: #232340;
+  padding: 1rem 2.5rem;
+  border-radius: 6px;
+}
+
+.traced-line-product {
+  float: right;
+  position: absolute;
+  top: -2.5rem;
+  left: 20rem;
+  z-index: -2;
+}
+
+.feature-product {
+  margin: 6rem 0 0 8rem;
+}
+.feature-product .feature-product-description {
+  z-index: 1;
+}
+.feature-product .feature-product-description .title-feature h1 {
+  font-weight: 800;
+  line-height: 6.5rem;
+  color: #232340;
+  font-size: 5.2em;
+}
+.feature-product .feature-product-description .description-feature {
+  margin-top: 4rem;
+  color: #606060;
+}
+.feature-product .feature-product-description .description-feature p {
+  font-size: 1em;
+  line-height: 2em;
+}
+.feature-product .feature-product-description .recent-work-button {
+  margin-top: 4rem;
+}
+.feature-product .feature-product-description .recent-work-button a {
+  color: #ffffff;
+  font-size: 1.2em;
+  width: auto;
+  height: auto;
+  text-decoration: none;
+  font-weight: 300;
+  color: #ffffff;
+  background: #5468e7;
+  padding: 1rem 2.5rem;
+  border-radius: 6px;
+}
+.feature-product .feature-product-description .scroll-down {
+  margin: 8rem 0 0 2rem;
+}
+.feature-product .feature-product-description .scroll-down a {
+  text-align: center;
+  color: #ffffff;
+  border-radius: 50%;
+  padding: 1rem;
+  background: #C897E4;
+}
+.feature-product .feature-product-description .scroll-down label {
+  color: #606060;
+}
+.feature-product .feature-product-images {
+  z-index: -1;
+  position: absolute;
+  top: 12rem;
+  right: 4rem;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  font-family: "Open Sans", sans-serif;
+  font-family: "Roboto", sans-serif;
+  font-family: "Source Sans Pro", sans-serif;
+}/*# sourceMappingURL=style.css.map */
