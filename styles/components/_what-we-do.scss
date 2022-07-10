@@ -1,0 +1,83 @@
+@import "../abstract/bases";
+@import "../abstract/variables";
+
+.what-we-do {
+   .what-we-do-bg {
+      position: absolute;
+      top: 2734px;
+      z-index: -2;
+   }
+    .what-we-do-cards {
+      width: 1170px;
+      height: 584px;
+      position: absolute;
+      top: 3174px;
+      left: 135px;
+    }
+    .what-we-do-banner {
+      position: absolute;
+    top: 2886px;
+    left: 135px;
+    img { 
+        width: 24px;
+        height: 24px;
+    }
+    }
+    .what-we-do-description {
+    position: absolute;
+    top: 2886px;
+    left: 335px;
+    div {
+        display: flex;
+    }  
+      label {
+        color:$primary-shade-color ;
+        font-size:$normal-text;
+        font-weight: 600;
+        line-height: 24px;
+    }
+    h1 {
+        font-size: 64px;
+        font-weight: 700;
+        line-height: 72px;
+        letter-spacing: -0.5px;
+        color: $dark;
+        font-style: bold;
+    }
+    p{
+        margin-bottom: 24px;
+        color:$primary-shade-color ;
+        margin-left: 16px;
+        font-size: $normal-text;
+        font-weight: 600;
+        line-height: 24px;
+    }
+    }
+    .what-we-do-button {
+      position: absolute;
+      top: 2934px;
+      left: 1161px;
+      .what-we-do-right-button {
+         padding: 25px 22px;
+         margin-left: 16px;
+         transform: rotate(180deg);
+         background: $primary-shade-color;
+         border-radius: 50%;
+         &:hover {
+             box-shadow: 0 0 2px 1px black;
+         }
+     }
+     .what-we-do-left-button {
+      padding: 25px 22px;
+      a {
+         color: black;
+      }
+         &:hover {
+             background: $primary-shade-color;
+             border-radius: 50%;
+             padding: 25px 22px;
+             box-shadow: 0 0 2px 1px black;
+      }
+  }
+ }
+}

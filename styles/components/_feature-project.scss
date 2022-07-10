@@ -2,67 +2,80 @@
 @import '../abstract/bases';
 
 .traced-line-product {
-    float: right;
+    width: 642.21px;
+    height: 819.25px;
     position: absolute;
-    top: -2.5rem;
-    left: 20rem;
+    top: 0.98px;
+    left: 321px;
     z-index: -2
 }
-
+.feature-product-images {
+            width: 924px;
+            height: 722px;
+            position: absolute;
+            top: 222px;
+            left: 406px;
+        }
 .feature-product {
-    margin: 6rem 0 0 8rem;
+    margin-left: 116px;
         .feature-product-description {
             z-index: 1;
            .title-feature {
             h1 {
-            font-weight: 800;
-            line-height: 6.5rem;
+            font-weight: 700;
+            line-height: 100.24px;
             color: $dark;
-            font-size: $title-text*1.3;
+            font-size: 84px;
                 }}
                 .description-feature {
-                    margin-top: 4rem;
+                    margin-top: 40px;
                     color: $description-text;
                     p {
-                        font-size: $botton-text - 0.2;
-                        line-height: 2em;
+                        font-weight: 400;
+                        font-size:$normal-text;
+                        line-height: 32px;
                     }
                 }
-                .recent-work-button {
-                    margin-top: 4rem;
-                    a {                  
-                    color: $light;
-                    font-size: $botton-text;
-                    width: auto;
-                    height: auto;
-                    text-decoration: none;
-                    font-weight: 300;
-                    color: $light;
-                    background: $primary-shade-color;
-                    padding: 1rem 2.5rem;
-                    border-radius: 6px;
+                
+    }
+      
+} .feature-product-recent-work-button {
+                 margin-top: 48px;
+                a {                  
+                color: $light;
+                font-size:$normal-text;
+                text-decoration: none;
+                font-weight: 300;
+                color: $light;
+                background: $primary-shade-color;
+                padding: 20px 37px;
+                border-radius: 6px;
+                &:hover {
+                    box-shadow: 0px 0px 1px 0.5px black;
+                }
                } 
               }
-              .scroll-down {
-                margin: 8rem 0 0 2rem;
-                a {
-                    text-align: center;
-                    color: $light;
-                    border-radius: 50%;
-                    padding: 1rem;
-                    background: #C897E4 ;
-                }
-                label {
-                    color: $description-text;
-                }
-              }
+.scroll-down { 
+        position: absolute;
+        top: 896px;
+        left: 135px;
+    img {
+        width: 10px;
+        height: 20px;
+        padding: 19px;
+        border-radius: 50%;
+        background: #C897E4;
+        &:hover {
+            box-shadow: 0px 0px 1px 0.5px black;
 
-    }
-        .feature-product-images {
-
-            z-index: -1;
-            position: absolute;
-            top: 12rem;
-            right: 4rem;
         }
+       
+}
+label {
+    position: relative;
+    top: -25px;
+    color: $description-text;
+    vertical-align: middle;
+    margin-left: 16px;
+}
 }

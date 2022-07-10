@@ -1,0 +1,173 @@
+@import '../abstract/bases';
+@import '../abstract/variables';
+
+.we-are-hering {
+
+    .we-are-hering-bg {
+        position: absolute;
+        top: 9149px;
+    }
+    .we-are-hering-traced-line {
+        position: absolute;
+        top: 9149px;
+        left: 328px;
+    }
+    .we-are-hering-text-part {
+        margin-bottom: 24px;
+        position: absolute;
+        top: 9277px;
+        left: 235px;
+        display: flex;
+        flex-direction: column;
+        .we-are-hering-title {
+            display: flex; 
+                label, p {
+                    font-size: $normal-text;
+                    font-style: bold;
+                    line-height: 24px;
+                    color: #5468E7;
+                }
+                p { 
+                    margin-left: 24px;
+                }
+            }
+        }
+        .we-are-hering-description {
+            margin-bottom: 41px;
+            h1 {
+                font-style: bold;
+                font-size: 110px;
+                font-weight: 700;
+                line-height: 100%;
+                letter-spacing: -1.2px;
+            }
+        }
+        .we-are-hering-banner {
+            position: absolute;
+            top: 9277px;
+            left: 135px;
+            img {
+                width: 24px;
+                height: 24px;
+            }
+        }
+        .we-are-hering-subDescription {
+            width: 367px;
+            height: 96px;
+            margin-bottom: 72px;
+            p {
+                font-weight: 400;
+                font-size: 18px;
+                line-height: 32px;
+                color: #606060;
+            }
+        }
+        .we-are-hering-right-button {
+            align-items: center;
+            width: 158px;
+            height: 48px;
+            display: flex;
+            a {
+                img {
+                    align-items: top;
+                    background: $secondary-shade-color;
+                    transform: rotate(-90deg);
+                    width: 10px;
+                    height: 20px;
+                    padding: 19px;
+                    border-radius: 50%;
+                    background: #C897E4;
+                    
+                    &:hover {
+                        box-shadow: 0px 0px 1px 0.5px black;
+                }
+            }
+        }
+        label {
+            text-align: left;
+            margin-left: 16px;
+            color: $description-text;
+            width: 94px;
+            height: 48px;
+            font-size: $normal-text;
+            line-height: 24px;
+            align-self: center;
+        }
+    }
+    .we-are-hering-curses-container {
+        position: absolute;
+        top: 9277px;
+        left: 737px;
+        display: flex;
+        flex-direction: column;
+        div {
+            width: 568px;
+            height: 247px;
+            border-radius: 40px;
+            .we-are-hering-curse-notification {
+                align-items: center;
+                width: 293px;
+                height: 34px;
+                display: flex;
+                font-size: 32px;
+                font-style: bold;
+                letter-spacing: -0.5px;
+                text-align: left;
+                line-height: 40px;
+                margin: 64px 259px 4px 64px;
+                
+                .we-are-hering-notification-button {
+                    width: 32px;
+                    height: 32px;
+                    margin: 0 0 0 15px;
+                }
+            }
+            p {
+                margin: 4px 0 0 64px;
+                text-align: left;
+                color: $description-text;
+                font-size: $normal-text;
+                line-height: 32px;
+                font-weight: 400;
+            }
+            .we-are-hering-arrow-image {
+                margin: 29px 212px 4px 64px;
+                transform: rotate(180deg);
+                &:hover {
+                    padding: 1px;
+            }
+        }
+            .we-are-hering-arrow-image-white {
+                margin: 29px 212px 4px 64px;
+                &:hover {
+                    padding: 1px;
+            }
+
+        } 
+        .we-are-hering-curse-graphic-designer {
+            background: white;
+            margin-bottom: 21px;
+            }
+        }
+        .we-are-hering-image {
+            position: absolute;
+            top: 265px;
+            left: 337px;
+            
+        }
+       .we-are-hering-curse-visual-designer {
+            background:$dark; 
+            margin-bottom: 21px;
+    
+        }
+        .we-are-hering-curse-art-director {
+            background: white;
+            margin-bottom: 21px;
+
+
+        }
+        .we-are-hering-curse-web-designer    {
+            background: white;
+        }
+    }
+}

@@ -1,0 +1,174 @@
+@import "../abstract/variables";
+@import "../abstract/bases";
+
+.famous-projects {
+
+    .famous-projects-banner{
+        position: absolute;
+    top: -156px;
+    left: 138.6px;
+    img { 
+        width: 24px;
+        height: 24px;
+    }
+    }
+    .famous-projects-description {
+        position: absolute;
+        top: 4912px;
+        left: 335px;
+        div {
+            display: flex;
+        }  
+          label {
+            color:$primary-shade-color ;
+            font-size:$normal-text;
+            font-weight: 600;
+            line-height: 32px;
+        }
+        h1 {
+            font-size: 84px;
+            font-weight: 700;
+            line-height: 100%;
+            letter-spacing: -1px;
+            color: $dark;
+            font-style: bold;
+        }
+        div {
+            display: flex;
+        }
+        .famous-projects-description-p{
+            margin-bottom: 24px;
+            color:$primary-shade-color ;
+            margin-left: 16px;
+            font-size: $normal-text;
+            font-weight: 600;
+            line-height: 32px;
+        }
+        .famous-projects-description-p-1 {
+            width: 467px;
+            margin-top: 40px;
+            color: #606060;
+            margin-left: 16px;
+            font-size: $normal-text;
+            line-height: 32px;
+        }
+    }
+        .famous-projects-contact-us-button {
+            position: absolute;
+            top: 4960px;
+            left: 1139px;
+           a {                  
+           color: $light;
+           font-size:$normal-text;
+           text-decoration: none;
+           font-weight: 300;
+           color: $light;
+           background: $primary-shade-color;
+           padding: 20px 37px;
+           border-radius: 6px;
+           &:hover {
+               box-shadow: 0px 0px 1px 0.5px black;
+           }
+          } 
+        }
+        img {
+        z-index: -1;
+        position: absolute;
+        top: 5070px;
+    }
+    
+    .famous-projects-sapiens {
+
+        .sapiens-description{
+            .sapiens-to-feature-button{
+                text-decoration: none;
+                position: absolute;
+                top: 5391px;
+                left: 135px;
+                border-radius: 20px;
+                color: white;
+                padding:  11px 23px;
+                font-size: 14px;
+                font-style: bold;
+                line-height: 18px;
+                text-align: center;
+                background-color: #9A97ED;
+                &:hover {
+                    box-shadow: 0 0 1px 1px black;
+                }
+            }
+            h1 {
+                position: absolute;
+                top: 5455px;
+                left: 135px;
+                width: 467px;
+                height: 96px;
+                font-size: 40px;
+                font-style: bold;
+                font-weight: 700;
+                letter-spacing:  -0.4px;
+                line-height: 48px;
+                color: black;
+            }
+            p {
+                width: 205px;
+                height: 160px;
+                position: absolute;
+                top: 5583px;
+                left: 135px;
+                font-size: $normal-text;
+                font-weight: 400;
+                line-height: 32px;
+                color: $description-text;
+            }
+        }
+        .sapiens-right-button {
+            position: absolute;
+            top: 421px;
+            left: 1052px;
+            img {
+               padding: 25px 22px;
+               margin-left: 16px;
+               transform: rotate(180deg);
+               background: $primary-shade-color;
+               border-radius: 50%;
+               &:hover {
+                   box-shadow: 0 0 2px 1px black;
+               }
+           }
+    }
+    
+}
+.famous-images {
+    .famous-traced-line{
+        
+        position: absolute;
+        top: 7607.88px;
+        left: 7.82px;
+    }
+    .part-vol-2{
+        position: absolute;
+        top: 6029px;
+        left: 598px;
+    }
+    .part-3d {
+        position: absolute;
+        top: 6324px;
+        left: 55px;
+    }
+    .part-vol-3{
+        position: absolute;
+        top: 7048px;
+        left: 634px;
+    }
+    .part-sapiens {
+        position: absolute;
+        top: 7413px;
+        left: 235px;
+    }
+    .cta-image {
+        position: absolute;
+        top: 8143px;
+    }
+}
+}
