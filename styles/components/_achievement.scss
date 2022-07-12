@@ -69,7 +69,6 @@
             top: 4299px;
             left: 737px;
             h1{
-
                 font-style: bold;
                 font-size: 200px;
                 line-height: 100%;
@@ -83,5 +82,82 @@
                 line-height: 32px;
             }
         }
-    
+    @media screen and (max-width: 1024px) {
+        .achievement-phone {
+            width: 1024px;
+            height: 554.67;
+            position: absolute;
+            top: 2874px;
+            left: 16px;
+        }
+        .achievement-bg {
+            padding: 165px;
+            position: absolute;
+            top: 2994px;
+            left: 110px;
+        }
+        .pagination {
+            position: absolute;
+            top: 3436.29px;
+            left: 228px;
+            border-radius: 1px solid black;
+            img {
+                width: 22px;
+                height: 508px;
+            }
+        }
+        .achievement-banner {
+            position: absolute;
+            top: 2971.6px;
+            left: 531px;
+        img { 
+            width: 24px;
+            height: 24px;
+        }
+        }
+        .achievement-description {
+            div {
+                display: flex;
+                position: absolute;
+                top: 2977.6px;
+                left: 630px;
+            label{
+                font-size: 16px;
+            }
+            p {
+                font-size: 16px;
+                font-style: bold;
+                color: $dark;
+                margin-left: 27px;
+            }
+            }
+            h1 {
+                font-size: 24px;
+                font-weight: 700;
+                line-height: 32px;
+                letter-spacing: -0.2px;
+                font-style: bold;
+                position: absolute;
+                top: 3042.6px;
+                left: 531px;
+            }
+        }
+            .achievement-big-number {
+                position: absolute;
+                top: 3186px;
+                left: 531px;
+                h1{
+                    font-style: bold;
+                    font-size: 140px;
+                
+                }
+                p {
+                    margin-top: 26px;
+                    font-size: 18px;
+                    font-weight: 600;
+                    letter-spacing: -0.2px;
+                    line-height: 24px;
+                }
+            }
+    }
 

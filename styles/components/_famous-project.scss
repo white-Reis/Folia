@@ -1,6 +1,19 @@
 @import "../abstract/variables";
 @import "../abstract/bases";
 
+.tablet-images {
+    img {
+    visibility: hidden;
+}
+}
+.famous-images {
+    img {
+        visibility: visible;
+    }
+}
+.famous-project-tablet-img {
+    visibility: hidden;
+}
 .famous-projects {
 
     .famous-projects-banner{
@@ -108,7 +121,7 @@
                 font-weight: 700;
                 letter-spacing:  -0.4px;
                 line-height: 48px;
-                color: black;
+                color: $dark;
             }
             p {
                 width: 205px;
@@ -172,3 +185,180 @@
     }
 }
 }
+
+
+
+
+
+
+
+
+@media screen and (max-width:1024px){
+    .sapiens-right-button {
+        visibility: hidden;
+    }
+    .tablet-images {
+        img {
+        visibility: visible;
+    }
+    }
+    .famous-images {
+        img {
+            visibility: hidden;
+        }
+    }
+    .famous-project-tablet-img {
+        visibility: visible;
+    }
+    .famous-projects {
+        .famous-project-tablet-img {
+            visibility: visible;
+            position: absolute;
+            top: -1427px;
+            left: 166.87px;
+            z-index: -2;
+        }
+
+        .famous-projects-banner{
+            position: absolute;
+        top: -1502px;
+        left: 238.49px;
+        }
+        .famous-projects-description {
+            position: absolute;
+            top: 3550.71px;
+            left: 332px; 
+              label {
+                color: $primary-shade-color;
+                font-size: 16px;
+                font-weight: 600;
+                line-height: 28px;
+            }
+            h1 {
+                font-size: 64px;
+                font-weight: 700;
+                letter-spacing: -0.5px;
+            }
+            div {
+                display: flex;
+            }
+            .famous-projects-description-p{
+                width: 220.21px;
+                font-size: 16px;
+                margin-bottom: 24px;
+                margin-left: 16px;
+                font-size: $normal-text;
+                font-weight: 400;
+                line-height: 28px;
+            }
+            .famous-projects-description-p-1 {
+                width: 330.21px;
+                height: 84px;
+                margin-top: 40px;
+                color: #606060;
+                margin-left: 16px;
+                font-size: 16px;
+                line-height: 28px;
+                text-align: left;
+            }
+        }
+            .famous-projects-contact-us-button {
+                position: absolute;
+                top: 3546px;
+                left: 828px;
+               a {                  
+               font-size: 16px;
+               text-decoration: none;
+               font-weight: 300;
+               color: $light;
+               background: $primary-shade-color;
+               padding: 12px 17px;
+               border-radius: 6px;
+               &:hover {
+                   box-shadow: 0px 0px 1px 0.5px black;
+               }
+              } 
+            }
+           
+        
+        .famous-projects-sapiens {
+            .feature-desk {
+                visibility: hidden;
+            }
+            .sapiens-description {
+                position: absolute;
+                top: -1520px;
+                left: 103.49px;
+                .sapiens-to-feature-button {
+                    font-size: 16px;
+                    width: 120.26px;
+                    height: 20.44px;
+                    padding: 7.82px 5.66px 4.62px 7.12px;
+                }
+                h1 {
+                    width: 399px;
+                    position: absolute;
+                    height: 80px;
+                    font-size: 32px;
+                    font-style: bold;
+                    font-weight: 700;
+                    letter-spacing:  -0.4px;
+                    line-height: 48px;
+                }
+                p {
+                    text-align: start;
+                    width: 220px;
+                    height: 80px;
+                    font-size: 16px;
+                    font-weight: 400;
+                    line-height: 28px;
+                    color: $description-text;
+                }
+            }
+        }
+    }  
+    }
+    .famous-images {
+    visibility: hidden;
+    }
+    .tablet-images {
+        visibility: visible;
+        .tablet-line-1 {
+            z-index: -2;
+            position: absolute;
+            top: 4050.87px;
+            left: 81px;
+        }
+        .tablet-v2 {
+            position: absolute;
+            top: 4357.36px;
+            left: 450.5px;
+        }
+        .tablet-3d {
+            position: absolute;
+            top: 4565.36px;
+            left: 197.41px;
+        }
+        .tablet-line-2 {
+            z-index: -2;
+            top: 4871.05px;
+            position: absolute;
+            left: 435.19px;
+        }
+        .tablet-v4 {
+            position: absolute;
+            top: 5081.36px;
+            left: 468.98px;
+        }
+        .tablet-v5 {
+            position: absolute;
+            top: 5341.36px;
+            left: 283.08px;
+        }
+    .cta-t { 
+        position: absolute;
+        top: 5990px;
+    }
+   
+
+    }

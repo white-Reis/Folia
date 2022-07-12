@@ -81,3 +81,87 @@
   }
  }
 }
+@media screen and (max-width: 1024px){
+  .what-we-do { 
+    .what-we-do-bg {
+     max-width: 1024px;
+    height: 1510.4px;
+    top: 2039px;
+    }
+     .what-we-do-cards {
+       width: 881px;
+       height: 415px;
+       position: absolute;
+       top: 2375px;
+       left: 107px;
+       img{
+        width: 821px;
+       height: 415.29px;
+       }
+     }
+     .what-we-do-banner {
+       position: absolute;
+     top: 2156px;
+     left: 96px;
+     img { 
+         width: 24px;
+         height: 24px;
+     }
+     }
+     .what-we-do-description {
+     width: 475px;
+     height: 160px;
+     position: absolute;
+     top: 2151px;
+     left: 248px; 
+       label {
+         color:$primary-shade-color ;
+         font-size:16px;
+         font-weight: 600;
+         line-height: 22px;
+     }
+     h1 {
+         width: 475px;
+         height: 112px;
+         font-size: 48px;
+         font-weight: 700;
+         line-height: 56px;
+         letter-spacing: -0.5px;
+     }
+     p{
+         margin-bottom: 26px;
+         margin-left: 27px;
+         font-size: 16px;
+         font-weight: 600;
+         line-height: 22px;
+     }
+     }
+     .what-we-do-button {
+       position: absolute;
+       top: 2190.6px;
+       left: 818px;
+       .what-we-do-right-button {
+          padding: 16px 13px;
+          margin-left: 29x;
+          transform: rotate(180deg);
+          background: $primary-shade-color;
+          border-radius: 50%;
+          &:hover {
+              box-shadow: 0 0 2px 1px black;
+          }
+      }
+      .what-we-do-left-button {
+       padding: 17px 13px;
+       a {
+          color: black;
+       }
+          &:hover {
+              background: $primary-shade-color;
+              border-radius: 50%;
+              padding: 25px 22px;
+              box-shadow: 0 0 2px 1px black;
+       }
+   }
+  }
+ }
+}

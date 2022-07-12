@@ -4,6 +4,7 @@
 .we-are-hering {
 
     .we-are-hering-bg {
+        width: 1440px;
         position: absolute;
         top: 9149px;
     }
@@ -144,6 +145,7 @@
             }
 
         } 
+    }
         .we-are-hering-curse-graphic-designer {
             background: white;
             margin-bottom: 21px;
@@ -170,4 +172,187 @@
             background: white;
         }
     }
-}
+
+
+@media screen and (max-width: 1024px) {
+    .we-are-hering {
+
+        .we-are-hering-bg {
+            position: absolute;
+            top: 6594px;
+        }
+        .we-are-hering-traced-line {
+            position: absolute;
+            top: 6594px;
+            left: 233px;
+            width: 457px;
+            height: 582px;
+        }
+        .we-are-hering-text-part {
+            margin-bottom: 24px;
+            position: absolute;
+            top: 6680px;
+            left: 177px;
+            display: flex;
+            flex-direction: column;
+            .we-are-hering-title {
+                display: flex; 
+                    label, p {
+                        font-size: 16px;
+                        font-style: bold;
+                        line-height: 22px;
+                        color: #5468E7;
+                    }
+                    p { 
+                        margin-left: 26px;
+                    }
+                }
+            }
+            .we-are-hering-description {
+                margin-top: 26px;
+                margin-bottom: 40px;
+                h1 {
+                    width: 329px;
+                    height: 92px;
+                    font-style: bold;
+                    font-size: 76px;
+                    font-weight: 700;
+                    line-height: 92px;
+                    letter-spacing: -0.5px;
+                }
+            }
+            .we-are-hering-banner {
+                position: absolute;
+                top: 6685px;
+                left: 107px;
+                img {
+                    width: 24px;
+                    height: 24px;
+                }
+            }
+            .we-are-hering-subDescription {
+                width: 258px;
+                height: 84px;
+                margin-bottom: 72px;
+                p {
+                    font-weight: 400;
+                    font-size: 16px;
+                    line-height: 28px;
+                    color: #606060;
+                }
+            }
+            .we-are-hering-right-button {
+                align-items: center;
+                width: 158px;
+                height: 48px;
+                display: flex;
+                a {
+                    img {
+                        align-items: top;
+                        background: $secondary-shade-color;
+                        transform: rotate(-90deg);
+                        width: 10px;
+                        height: 20px;
+                        padding: 19px;
+                        border-radius: 50%;
+                        background: #C897E4;
+                        
+                        &:hover {
+                            box-shadow: 0px 0px 1px 0.5px black;
+                    }
+                }
+            }
+            label {
+                text-align: left;
+                margin-left: 16px;
+                color: $description-text;
+                width: 70px;
+                height: 44px;
+                font-size: 16px;
+                line-height: 22px;
+                align-self: center;
+            }
+        }
+        .we-are-hering-curses-container {
+            position: absolute;
+            top: 6685px;
+            left: 530px;
+            display: flex;
+            flex-direction: column;
+            div {
+                width: 399px;
+                height: 191px;
+                border-radius: 40px;
+                .we-are-hering-curse-notification {
+                    margin: 45.5px 158.91px 4px 39.09px;
+                    h1 {
+                        font-size: 24px;
+                        line-height: 32px;
+                        letter-spacing:  -0.2;
+                    }
+                    
+                    .we-are-hering-notification-button {
+                        width: 24px;
+                        height: 24px;
+                        margin: 0 0 0 15px;
+                    }
+                }
+                p {
+                    margin: 4px 233px 11px 39.09px;
+                    text-align: left;
+                    color: $description-text;
+                    font-size: 16px;
+                    line-height: 28px;
+                    font-weight: 400;
+                }
+                .we-are-hering-arrow-image {
+                    width: 17px;
+                    height: 14.22px;
+                    margin: 0 345px 60.08px 39.09px;
+                    transform: rotate(180deg);
+                    &:hover {
+                        padding: 1px;
+                }
+            }
+                .we-are-hering-arrow-image-white {
+                    width: 17px;
+                    height: 14.22px;
+                    margin: 0 354.78px 60.44px 39px;
+                    &:hover {
+                        padding: 1px;
+                }
+    
+            } 
+        }
+            .we-are-hering-curse-graphic-designer {
+                background: white;
+                margin-bottom: 16px;
+                }
+            }
+            .we-are-hering-image {
+                width: 150px;
+                height: 150px;
+                position: absolute;
+                top: 228.38px;
+                left: 235.64px;
+                
+            }
+           .we-are-hering-curse-visual-designer {
+                background:$dark; 
+                margin-bottom: 21px;
+                h1 {
+                    color: white
+                }
+        
+            }
+            .we-are-hering-curse-art-director {
+                background: white;
+                margin-bottom: 21px;
+    
+    
+            }
+            .we-are-hering-curse-web-designer    {
+                background: white;
+            }
+        }
+    }

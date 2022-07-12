@@ -43,7 +43,11 @@
     top: 1512px;
     left: 135px;
 }
-
+.pagination {
+    position: absolute;
+    top: 1897.85px;
+    left: 51px;
+}
 .point-line {
     z-index: 1;
     width: 200px;
@@ -82,6 +86,8 @@
         line-height: 24px;
     }
     h1 {
+        width: 668px;
+        height: 188.91px;
         font-size: 64px;
         font-weight: 700;
         line-height: 72px;
@@ -191,5 +197,202 @@
         vertical-align: top;
         letter-spacing: -0.2px;
     }
+}
+}
+@media screen and (max-width: 1024px){
+    .who-we-are {
+    margin-top: 300px;
+.background-dark { 
+    z-index: -2;
+    position: absolute;
+    top: 800px;
+    width: 1024px;    
+    height: 1242px;  
+}
+.who-we-are-line {
+    z-index: 1;
+    position: absolute;
+    top: 726px;
+    left: -26.31;
+    img {
+        width: 346.15px;  
+        height: 557.85px;
+    }
+}
+.who-we-are-desktop {
+    z-index: 1;
+    width: 689.78px;
+    height: 423.82px;
+    position: absolute;
+    top: 1128px;
+    left: 238.22px;
+}
+.who-we-are-background {
+    width: 570.31;
+    height: 748.09px;
+    top: 768px;
+    left: 453.69px;
+}
+.years {
+    z-index:1;
+    position: absolute;
+    width: 32px;
+    height: 375px;
+    top: 1143.02px;
+    left: 107px;
+}
+
+.point-line {
+    z-index: 1;
+    width:143px;
+    height: 12px;
+    position: absolute;
+    top: 1414px;
+    left: 142.93px;
+}
+.pagination {
+    position: absolute;
+    top: 1419.36px;
+    left: 34.84px;
+    img {
+        width: 17.07px;
+        height: 2.84px;
+    }
+}
+.line {
+    position: absolute;
+    top: 1637.27px;
+    left: 107px;
+    border-radius: 1px;
+}
+.who-we-are-banner {
+
+    position: absolute;
+    top: 889px;
+    left: 107px;
+    img { 
+        width: 24px;
+        height: 24px;
+    }
+}
+.who-we-are-description {
+
+    position: absolute;
+    width: 616px;
+    height: 160px;
+    top: 889px;
+    left: 248px;      
+      label {
+        font-size: 16px;
+        line-height: 22px;
+    }
+    h1 {
+        width: 475px;
+        height: 112px;
+        font-size: 48px;
+        line-height: 56px;
+    }
+    p{
+        margin-bottom: 26px;
+        margin-left: 27px;
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 24px;
+    }
+}
+.who-we-are-button {
+    width: 112px;
+    height: 48px;
+    position: absolute;
+    top: 921.6px;
+    left: 818px;
+    img {
+        width: 14px;
+        height: 20px;
+    }
+    .left-button {
+        padding: 17px 14px;
+        &:hover {
+            background: $primary-shade-color;
+            border-radius: 50%;
+            padding: 17Px 14px;
+            box-shadow: 0 0 2px 1px black;
+        }
+    } 
+    .right-button {
+        padding: 17px 14px;
+        margin-left: 16px;
+        color: white;
+        transform: rotate(180deg);
+        background: $primary-shade-color;
+        border-radius: 50%;
+        &:hover {
+            box-shadow: 0 0 2px 1px black;
+        }
+    }
+}
+.who-we-are-subDescription {
+    width: 353px;
+    height: 220px;
+    position: absolute;
+    top: 1637px;
+    left: 248px;
+ p {    
+        width: 353px;
+        height: 84px;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 28px;
+        color: #8B8B8B;
+    }
+    .subDescription {
+        width: 329;
+        height: 96px;
+        color: white;
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 32px;
+        letter-spacing: -0.2px;
+        margin-bottom: 40px;
+        letter-spacing: 0.5px;
+    }
+   
+}
+
+.who-we-are-contact-us-button {
+    margin-top: 32px;
+    position: absolute;
+    top: 1889px;
+    left: 248px;
+   a {                  
+   font-size:16px;
+   text-decoration: none;
+   font-weight: 600;
+   padding: 17px 40.5px;
+   border-radius: 6px;
+  } 
+ }
+.big-number {
+    width: 283px;
+    height: 283px;
+    position: absolute;
+    top: 1637.43px;
+    left: 647.87px;
+    border-radius: 50%;
+    box-shadow: 0 0 30px 0 black;
+
+     h1 {
+        margin: 45px 45px 0 45px;
+        color: white;
+        font-size: 140px;
+        line-height: 167.07px;
+    }
+    p {
+        font-size: 18px;
+        font-weight: 600;
+        line-height: 24px;
+        text-align: center;
+    }
+}
 }
 }
